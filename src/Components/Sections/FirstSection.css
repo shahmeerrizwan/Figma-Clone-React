@@ -1,0 +1,42 @@
+.text-sec {
+  width: 40%;
+  margin: auto;
+}
+.img-sec {
+  width: 50%;
+}
+.img-sec img {
+  width: 77%;
+  margin-left: 80px;
+}
+.main-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: whitesmoke;
+}
+.text-sec h1 {
+  color: #58595b;
+  font-size: 47px;
+  font-weight: 600;
+}
+.text-sec h2 {
+  color: #43a046;
+  font-size: 40px;
+  font-weight: 600;
+}
+.text-sec p {
+  color: #58595b;
+  font-weight: 500;
+}
+.re-btn {
+  width: 98px;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 22px;
+  background-color: #43a046;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

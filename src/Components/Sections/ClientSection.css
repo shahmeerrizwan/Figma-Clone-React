@@ -1,0 +1,22 @@
+.client-sec {
+  text-align: center;
+}
+.f-sec h1 {
+  color: #58595b;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.f-sec p {
+  color: #58595b;
+  font-size: large;
+  font-weight: 450;
+}
+.client-img img {
+  width: 50px;
+  cursor: pointer;
+}
+.client-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}

@@ -1,0 +1,14 @@
+.card-text h1 {
+  color: #58595b;
+  font-size: 35px;
+  margin-top: 90px;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.card-text p {
+  color: #58595b;
+  font-size: large;
+  font-weight: 450;
+}
