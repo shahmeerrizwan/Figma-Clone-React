@@ -1,8 +1,8 @@
-.m-s-1 {
+.m-s {
   display: flex;
   align-items: center;
   width: 100%;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .m-i img {
   width: 85%;

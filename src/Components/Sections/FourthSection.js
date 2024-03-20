@@ -1,13 +1,13 @@
-import React from 'react';
-import './SecondSection.css';
-import img from '../../Assets/bg-3.png'
+import React from 'react'
+import './FourthSection.css';
+import image from '../../Assets/bg-2.png'
 
 
-export default function SecsondSection() {
+export default function FourthSection() {
     return (
-        <div className='m-s-1'>
+        <div className='m-s'>
             <div className='m-i'>
-                <img src={img} alt='' />
+                <img src={image} alt='' />
             </div>
             <div className='m-t'>
                 <h1>The unseen of spending three

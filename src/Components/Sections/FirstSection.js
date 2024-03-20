@@ -3,6 +3,7 @@ import './FirstSection.css';
 import img from '../../Assets/pic-1.png'
 
 
+
 export default function FirstSection() {
     return (
         <div className='main-div'>
