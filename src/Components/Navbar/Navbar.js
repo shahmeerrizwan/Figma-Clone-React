@@ -17,7 +17,7 @@ const Navbar = () => {
                 <input type="checkbox" id="click" checked={menuOpen} onChange={() => setMenuOpen(!menuOpen)} />
                 <label htmlFor="click" className="menu-btn">
                     <i className="fas fa-bars"></i>
-                    <div>< img className='logoo' src={logo} alt="" /></div>
+                    <div><a href='/'>< img className='logoo' src={logo} alt="" /></a></div>
                 </label>
                 <ul>
                     <li ><a onClick={handleMenuItemClick} href='/'>Home</a></li>

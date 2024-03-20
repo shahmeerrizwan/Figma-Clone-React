@@ -15,12 +15,29 @@ export default function Card1() {
             <div className='main-card'>
                 <div className='card'>
                     <img src={icon1} alt='...' />
+                    <h1>Membership
+                        Organisations</h1>
+                    <p>Our membership management
+                        software provides full automation of
+                        membership renewals and payments</p>
                 </div>
                 <div className='card'>
                     <img src={icon2} alt='...' />
+                    <h1>National
+                        Associations</h1>
+                    <p>Our membership management
+                        software provides full automation of
+                        membership renewals and
+                        payments
+                    </p>
                 </div>
                 <div className='card'>
                     <img src={icon3} alt='...' />
+                    <h1>Clubs And <br />
+                        Groups</h1>
+                    <p>Our membership management
+                        software provides full automation of
+                        membership renewals and payments</p>
                 </div>
 
             </div>

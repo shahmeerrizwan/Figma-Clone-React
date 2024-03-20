@@ -21,6 +21,7 @@ nav {
 .logoo {
   position: relative;
   right: 50px;
+  cursor: pointer;
 }
 .btn-login {
   font-weight: 500;
@@ -28,7 +29,6 @@ nav {
   background: transparent;
   color: green;
   font-size: 18px;
-  margin-bottom: 6px;
   cursor: pointer;
 }
 .btn-signup {
@@ -41,7 +41,6 @@ nav {
   border-radius: 5px;
   position: relative;
   cursor: pointer;
-  bottom: 5px;
 }
 nav .logo {
   color: #fff;

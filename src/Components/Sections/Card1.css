@@ -12,3 +12,36 @@
   font-size: large;
   font-weight: 450;
 }
+.card {
+  margin-top: 30px;
+  width: 25%;
+  box-shadow: 10px 10px 15px rgb(192, 183, 183), -10px -10px 15px white;
+  border: none;
+  border-radius: 5px;
+  height: 300px;
+  border-top: none;
+}
+.main-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-card img {
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  cursor: pointer;
+  width: 16%;
+}
+.card p {
+  color: #58595b;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 450;
+  text-align: center;
+}
+.card h1 {
+  color: #58595b;
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
