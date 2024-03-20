@@ -31,9 +31,9 @@ export default function Card1() {
                         payments
                     </p>
                 </div>
-                <div className='card'>
+                <div className='card l-c'>
                     <img src={icon3} alt='...' />
-                    <h1>Clubs And <br />
+                    <h1>Clubs And
                         Groups</h1>
                     <p>Our membership management
                         software provides full automation of

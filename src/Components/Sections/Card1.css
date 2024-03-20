@@ -45,3 +45,48 @@
   margin-top: 10px;
   text-align: center;
 }
+@media (max-width: 900px) {
+  .card-text h1 {
+    font-size: 33px;
+    margin-top: 40px;
+  }
+  .main-card {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  .card {
+    position: relative;
+    width: 90%;
+    top: 39px;
+    left: 20px;
+    height: 264px;
+  }
+  .l-c {
+    position: relative;
+    left: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .main-card {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+  .card {
+    position: relative;
+    width: 86%;
+    left: 36px;
+    right: 30px !important;
+  }
+  .card h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 450px) {
+  .card {
+    left: 28px;
+  }
+  .card-text h1 {
+    font-size: 28px;
+    margin-top: 32px;
+  }
+}

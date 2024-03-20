@@ -26,8 +26,12 @@ const Navbar = () => {
                     <li ><a onClick={handleMenuItemClick} href='/'>Product</a></li>
                     <li ><a onClick={handleMenuItemClick} href='/'>Testimonial</a></li>
                     <li ><a onClick={handleMenuItemClick} href='/'>FAQ</a></li>
-                </ul>  <div className='btn-main'> <button className='btn btn-login'>Login</button>
-                    <button className='btn btn-signup'>SignUp</button></div>
+                    <li > <a onClick={handleMenuItemClick} href='/'><button className='btn btn-login show'>Login</button></a></li>
+                    <li ><a onClick={handleMenuItemClick} href='/'>  <button className='btn btn-signup show'>SignUp</button></a></li>
+
+                </ul>
+                <div className='btn-main hide'> <button className='btn btn-login hide'>Login</button>
+                    <button className='btn btn-signup hide'>SignUp</button></div>
 
 
             </nav>
