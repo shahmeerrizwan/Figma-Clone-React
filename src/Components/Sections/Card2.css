@@ -1,0 +1,67 @@
+#header {
+  margin: 20px;
+  margin-top: 60px;
+}
+#header > h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #58595b;
+}
+#header > p {
+  text-align: center;
+  font-size: 13px;
+  color: #58595b;
+  margin: auto;
+  width: 45%;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+.cardy {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 60px;
+}
+
+.cardy-image {
+  width: 100%;
+  height: 250px;
+}
+.cardy-image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.cardy-text {
+  margin: -30px auto;
+  height: 170px;
+  width: 300px;
+  box-shadow: 10px 4px 15px rgb(192, 183, 183), -10px 12px 15px white;
+  background-color: whitesmoke;
+  color: #000000;
+  border-radius: 5px;
+  padding: 20px;
+}
+.cardy-meal-type {
+  font-style: italic;
+}
+.cardy-title {
+  font-size: 17px;
+  color: #58595b;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.cardy-body {
+  color: #43a046;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
