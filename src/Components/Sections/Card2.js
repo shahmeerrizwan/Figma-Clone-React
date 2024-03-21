@@ -15,11 +15,11 @@ export default function Card2() {
                     are increasing their membership income and lot s more.</p>
             </div>
             <div className="container">
-                <div className="cardy">
+                <div className="cardy n-4">
                     <div className="cardy-image">
                         <img alt='...' src={img1} />
                     </div>
-                    <div className="cardy-text">
+                    <div className="cardy-text n-5">
 
                         <h2 className="cardy-title">Creating Streamlined
                             Safeguarding Processes with
@@ -27,7 +27,7 @@ export default function Card2() {
                         <p className="cardy-body">Readmore &#x2192;</p>
                     </div>
                 </div>
-                <div className="cardy">
+                <div className="cardy n-3">
                     <div className="cardy-image">
                         <img alt='...' src={img2} />
                     </div>
@@ -39,15 +39,15 @@ export default function Card2() {
                         <p className="cardy-body">Readmore &#x2192;</p>
                     </div>
                 </div>
-                <div className="cardy">
+                <div className="cardy lc-300">
                     <div className="cardy-image">
                         <img alt='...' src={img3} />
                     </div>
-                    <div className="cardy-text">
+                    <div className="cardy-text ">
                         <h2 className="cardy-title">Revamping the Membership
                             Model with Triathlon
                             Australia
-                            Model with Triathlon</h2>
+                            Model .</h2>
                         <p className="cardy-body">Readmore &#x2192;</p>
                     </div>
                 </div>

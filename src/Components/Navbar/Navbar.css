@@ -8,6 +8,7 @@
 nav {
   display: flex;
   height: 80px;
+  position: fixed;
   width: 100%;
   background-color: whitesmoke;
   align-items: center;
@@ -55,9 +56,12 @@ nav ul {
 }
 nav ul li {
   margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 100000;
 }
 
-nav ul li a {
+nav ul li {
   position: relative;
   color: #263238;
   text-decoration: none;
@@ -68,7 +72,7 @@ nav ul li a {
   letter-spacing: 1px;
 }
 
-nav ul li a::before {
+nav ul li::before {
   content: "";
   position: absolute;
   left: 0;
@@ -79,7 +83,7 @@ nav ul li a::before {
   transition: width 0.5s ease;
 }
 
-nav ul li a:hover::before {
+nav ul li:hover::before {
   width: 100%;
 }
 nav .menu-btn i {
@@ -114,6 +118,7 @@ input[type="checkbox"] {
   .show {
     display: inline;
   }
+
   nav .menu-btn i {
     top: 27px;
     position: absolute;
@@ -132,7 +137,6 @@ input[type="checkbox"] {
     padding: 17px;
     align-items: center;
     display: flex;
-    position: fixed;
     justify-content: flex-start;
   }
   nav ul {
@@ -152,18 +156,18 @@ input[type="checkbox"] {
   }
   nav ul li {
     width: 100%;
-    margin: 40px 0;
+    margin: 22px 0;
   }
-  nav ul li a {
+  nav ul li {
     margin-left: -100%;
     font-size: 20px;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  #click:checked ~ ul li a {
+  #click:checked ~ ul li {
     margin-left: 0px;
   }
-  nav ul li a.active,
-  nav ul li a:hover {
+  nav ul li.active,
+  nav ul li:hover {
     background: none;
     color: rgb(0, 0, 0);
   }

@@ -13,7 +13,7 @@ import logo6 from '../../Assets/Logo (6).png'
 export default function FifhtSection() {
     return (
         <div className='m-s-2'>
-            <div className='m-i'>
+            <div className='m-i-9'>
                 <img src={image} alt='' />
             </div>
             <div className='m-t-1'>
@@ -33,8 +33,9 @@ export default function FifhtSection() {
                     <img src={logo4} alt='...' />
                     <img src={logo5} alt='...' />
                     <img src={logo6} alt='...' />
-                    <span>Meet all customers &#x2192;</span>
+                    <span className='ipl'>Meet all customers &#x2192;</span>
                 </div>
+                <span className='pk-i'>Meet all customers &#x2192;</span>
             </div>
         </div>
     )

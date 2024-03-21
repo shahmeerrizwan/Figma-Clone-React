@@ -37,3 +37,30 @@
   border-radius: 3px;
   cursor: pointer;
 }
+@media (max-width: 900px) {
+  .m-i img {
+    top: 30px;
+    position: relative;
+    width: 375px;
+    display: flex;
+  }
+  .m-t {
+    position: relative;
+    width: 50%;
+    top: 40px;
+  }
+  .m-t h1 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 800px) {
+  .m-s {
+    flex-direction: column;
+  }
+  .m-i {
+    width: auto;
+  }
+  .m-t {
+    width: 85%;
+  }
+}

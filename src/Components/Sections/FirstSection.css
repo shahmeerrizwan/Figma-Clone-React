@@ -14,7 +14,11 @@
   justify-content: space-evenly;
   width: 100%;
   background-color: whitesmoke;
+
+  position: relative;
+  top: 80px;
 }
+
 .text-sec h1 {
   color: #58595b;
   font-size: 47px;

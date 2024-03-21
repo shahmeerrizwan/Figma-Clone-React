@@ -45,7 +45,7 @@
   margin-top: 10px;
   text-align: center;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .card-text h1 {
     font-size: 33px;
     margin-top: 40px;
@@ -85,8 +85,22 @@
   .card {
     left: 28px;
   }
+  .card-text p {
+    font-size: 15px;
+  }
   .card-text h1 {
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 32px;
+  }
+  .f-sec p {
+    margin-left: 7px;
+    font-size: 12px;
+  }
+  .f-sec h1 {
+    font-size: 31px;
+    margin-top: 17px;
+  }
+  .t-t h2 {
+    font-size: 25px;
   }
 }
