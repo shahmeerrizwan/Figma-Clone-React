@@ -16,7 +16,6 @@ function App() {
   return (
     <div >
       <Navbar />
-
       <FirstSection />
       <ClientSection />
       <Card1 />

@@ -51,10 +51,7 @@ export default function Card2() {
                         <p className="cardy-body">Readmore &#x2192;</p>
                     </div>
                 </div>
-
-
             </div>
-
         </div>
     )
 }

@@ -39,7 +39,6 @@ export default function Card1() {
                         software provides full automation of
                         membership renewals and payments</p>
                 </div>
-
             </div>
         </>
     )
