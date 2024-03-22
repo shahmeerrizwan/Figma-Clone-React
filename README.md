@@ -1,3 +1,12 @@
+
+
+![localhost_3000_ (2)](https://github.com/shahmeerrizwan/Figma-Clone-React/assets/148860820/9e1ec5c3-7e26-4cd0-b36a-e80eb2b54ed3)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
