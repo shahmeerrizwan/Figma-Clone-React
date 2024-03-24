@@ -8,7 +8,8 @@ Figma Template
  Code
  
  
-![localhost_3000_ (2)](https://github.com/shahmeerrizwan/Figma-Clone-React/assets/148860820/9e1ec5c3-7e26-4cd0-b36a-e80eb2b54ed3)
+
+![localhost_3000_ (3)](https://github.com/shahmeerrizwan/Figma-Clone-React/assets/148860820/0c25d6ca-d5aa-4c2c-8518-9b58b2ad1308)
 
 
 
