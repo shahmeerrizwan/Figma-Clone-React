@@ -1,5 +1,13 @@
+Before
 
 
+![Landing Page](https://github.com/shahmeerrizwan/Figma-Clone-React/assets/148860820/df2cc8e5-522b-4ac5-bdde-9626e6dca990)
+
+
+
+ After 
+ 
+ 
 ![localhost_3000_ (2)](https://github.com/shahmeerrizwan/Figma-Clone-React/assets/148860820/9e1ec5c3-7e26-4cd0-b36a-e80eb2b54ed3)
 
 
